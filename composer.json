@@ -1,0 +1,27 @@
+{
+    "name": "digital-canvas/recurly-client-laravel",
+    "homepage": "http://github.com/digital-canvas/recurly-client-laravel",
+    "description": "A simple Laravel 4 service provider for including the Recurly PHP Client for PHP.",
+    "keywords": ["laravel","laravel 4","recurly","recurring","billing","api"],
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Jonathan Bernardi",
+            "email":"jonathan@digitalcanvas.com",
+            "homepage":"http://www.digitalcanvas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "recurly/recurly-client": "2.2.*",
+        "illuminate/foundation": "4.*",
+        "illuminate/support": "4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "DigitalCanvas\\Recurly": "src/" }
+    }
+}
